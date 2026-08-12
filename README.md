@@ -32,7 +32,5 @@ Java 17、Spring Boot、MyBatis、Redis、MySQL、RabbitMQ、Dubbo、Nacos、Zoo
 - 任务调度、服务注册和 Prometheus/Grafana 监控
 - 前后端分离的抽奖与运营页面
 
-## 说明
 
-本仓库用于项目展示与面试交流。面试资料中的设计设想、性能数据或部署信息，以当前源码、配置和测试能够证明的内容为准。
 
