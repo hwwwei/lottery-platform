@@ -1,0 +1,8 @@
+﻿canal:
+  manager:
+    jdbc:
+      url: jdbc:mysql://mysql:3306/canal_manager?useUnicode=true&characterEncoding=UTF-8
+      username: canal
+      password: ${CANAL_DB_PASSWORD:change-me}
+
+

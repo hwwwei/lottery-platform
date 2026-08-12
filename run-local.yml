@@ -1,0 +1,36 @@
+﻿server:
+  port: 8091
+
+spring:
+  rabbitmq:
+    addresses: 127.0.0.1
+    port: 5672
+  elasticsearch.datasource:
+    url: jdbc:es://http://127.0.0.1:9200
+
+mini-db-router:
+  jdbc:
+    datasource:
+      db00:
+        url: jdbc:mysql://127.0.0.1:13306/big_market?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useSSL=false
+      db01:
+        url: jdbc:mysql://127.0.0.1:13306/big_market_01?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useSSL=false
+      db02:
+        url: jdbc:mysql://127.0.0.1:13306/big_market_02?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useSSL=false
+
+redis:
+  sdk:
+    config:
+      host: 127.0.0.1
+      port: 16379
+
+dubbo:
+  registry:
+    address: nacos://127.0.0.1:8848
+
+xxl:
+  job:
+    admin:
+      addresses: http://127.0.0.1:9090/xxl-job-admin
+
+
